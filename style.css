@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    size: 15px;
+}
+#black
+{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+}
+#b4{
+    width:20px;
+}
+svg,
+#black img 
+{
+    height:25px;
+    width: 35px;
+    margin-top:10px;
+}
+.form-control{
+    width:50%;
+    height:35px;
+}
+.a1{
+    padding:10px;
+    margin-right:45px;
+    margin-left:45px;
+    width:60px;
+}
+hr{
+margin-bottom:30px;
+}
+.nav-link{
+    width:30px;
+    font-size:1.5em;
+    text-decoration:none;
+    color:black;
+    font-weight:20px;
+    cursor:pointer;
+    padding:15px;
+    justify-content:space-between;
+}
+.nav-link:hover {
+    border-style: outset;    
+}
+.bar ul li{ 
+    text-decoration:none;
+    display:inline;
+}
+#main1{
+    display:flex;
+    justify-content:space;
+    list-style:none;
+    font-size:0.7em;
+}
+nav ul{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style:none;
+    padding:10px;
+    font-size:0.7em;
+}
+nav ul li {
+    margin:0 20px;
+}
+.but
+{
+    background-color: black;
+    color: white;
+    display: flex;
+   width:60px;
+    height:38px;
+    text-align: center;
+    margin-right:100px;
+}
+#comp
+{
+    text-align: center;
+    font-size:10px;
+    width: 32%;
+    margin: 0 auto;
+}
+#comp img{
+    height:250px;
+    width: 250px;
+}
+ul li{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.boxes
+{
+    display: flex;
+    width: 100%;
+    margin: 20px 200px;
+}
+
+.small
+{
+    padding: 10px 20px;
+    width:15%;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.small *
+{
+    padding :10px 10px;
+}
+
+.skill{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:50px;
+}
+.ski div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.ski ul li{
+    margin:1px 0;
+}
+body
+{
+    background: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.boxes a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    border-radius: 10px;
+}
+#bg1,
+#love
+{
+    color: white;
+    padding: 100px;
+    height: 250px;
+    text-align: center;
+    margin : 20px 0;
+}
+#love
+{
+background: url(./img/background.png);
+}
+#bg1
+{
+    background-image: url("./img/b1.png");
+}
+#bg1 *
+{
+    padding: 10px 0;
+}
+#love *
+{
+    width:30%;
+    margin:0 auto;
+    padding: 10px;
+}
+.centre
+{
+    width: 25%;
+    text-align: center;
+    margin:0 auto;
+    size:1.5em;
+}
+.main
+{
+    font-weight: 600;
+    font-size: 2.5em;
+    padding: 20px 0;
+}
+.button1{
+    background: maroon;
+    color: white;
+    padding: 10px;
+}
+.b1{
+    border-style: solid;
+    border-radius:2%;
+}
+.button2
+{
+    background: purple;
+    color: white;
+    padding: 10px;
+}
+h2{
+    font-size:3em;
+}
